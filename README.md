@@ -34,7 +34,3 @@ Policy Page
 
 <img width="1895" height="899" alt="Screenshot 2026-01-03 152305" src="https://github.com/user-attachments/assets/289df934-6f1d-442e-9c7d-ea73f5ce59cf" />
 
-
-
-<img width="1895" height="899" alt="Screenshot 2026-01-03 152305" src="https://github.com/user-attachments/assets/bc8067d0-f86b-4e70-8acf-088004b9dbe4" />
-
