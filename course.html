@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Courses</title>
+</head>
+
+<body style="margin:0; font-family:Arial, sans-serif; background-color:#f0f3f7;">
+
+  <!-- Header -->
+  <div style="background:linear-gradient(90deg,#1e293b,#0f172a); color:white; padding:35px 50px;">
+    <h1 style="margin:0; font-size:36px;">Our Courses</h1>
+    <p style="margin-top:10px; color:#cbd5e1; font-size:16px;">Choose a course to upgrade your skills and career</p>
+  </div>
+
+  <!-- Main Layout -->
+  <div style="display:flex; padding:30px; gap:30px; max-width:1250px; margin:auto;">
+
+    <!-- Sidebar -->
+    <div style="width:270px; background:white; padding:25px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.08);">
+      <h3 style="margin-top:0; margin-bottom:20px;">Categories</h3>
+
+      <div style="padding:14px; background:#e0f2fe; color:#0369a1; border-radius:8px; margin-bottom:12px; cursor:pointer; transition:0.3s;"
+           onmouseover="this.style.background='#bae6fd'" onmouseout="this.style.background='#e0f2fe'">💻 Web Development</div>
+      <div style="padding:14px; border-radius:8px; margin-bottom:12px; cursor:pointer; transition:0.3s;"
+           onmouseover="this.style.background='#fce7f3'" onmouseout="this.style.background='transparent'">🎨 Graphic Design</div>
+      <div style="padding:14px; border-radius:8px; margin-bottom:12px; cursor:pointer; transition:0.3s;"
+           onmouseover="this.style.background='#dcfce7'" onmouseout="this.style.background='transparent'">📈 Digital Marketing</div>
+      <div style="padding:14px; border-radius:8px; cursor:pointer; transition:0.3s;"
+           onmouseover="this.style.background='#fee2e2'" onmouseout="this.style.background='transparent'">🧠 Programming</div>
+    </div>
+
+    <!-- Courses Area -->
+    <div style="flex:1; display:flex; flex-direction:column; gap:30px;">
+
+      <!-- Card 1: Web Development -->
+      <div style="display:flex; background:white; border-radius:14px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.3s;"
+           onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.2)';"
+           onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.1)';">
+        <div style="width:240px; overflow:hidden;">
+          <img src="/images/web-dev-image.jpg" style="width:100%; height:100%; object-fit:cover; transition:0.5s;"
+               onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';" alt="Web Development">
+        </div>
+        <div style="padding:26px; flex:1;">
+          <h2 style="margin-top:0; margin-bottom:8px; font-size:24px;">Full Stack Web Development</h2>
+          <div style="color:#f59e0b; font-size:15px; margin-bottom:8px;">★★★★☆ <span style="color:#64748b;">(4.5)</span></div>
+          <p style="color:#555; margin-top:0; font-size:15px; line-height:1.6;">
+            HTML, CSS, JavaScript, React & Backend basics. Build real-world projects.
+          </p>
+          <div style="margin:12px 0; display:flex; gap:10px; flex-wrap:wrap;">
+            <span style="display:inline-block; background:#e0f2fe; color:#0369a1; padding:6px 14px; border-radius:20px; font-size:13px;">⏱ 3 Months</span>
+            <span style="display:inline-block; background:#ecfdf5; color:#047857; padding:6px 14px; border-radius:20px; font-size:13px;">Beginner</span>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-top:20px;">
+            <strong style="font-size:18px; color:#1e293b;">₹9,999</strong>
+            <button style="background:#1e40af; color:white; border:none; padding:12px 24px; border-radius:8px; cursor:pointer; box-shadow:0 5px 12px rgba(30,64,175,0.4); transition:0.3s;"
+                    onmouseover="this.style.background='#2563eb'; this.style.boxShadow='0 8px 18px rgba(37,99,235,0.5)';"
+                    onmouseout="this.style.background='#1e40af'; this.style.boxShadow='0 5px 12px rgba(30,64,175,0.4)';">Enroll Now →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Graphic Design -->
+      <div style="display:flex; background:white; border-radius:14px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.3s;"
+           onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.2)';"
+           onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.1)';">
+        <div style="width:240px; overflow:hidden;">
+          <img src="/images/graphic-design-img.jpg" style="width:100%; height:100%; object-fit:cover; transition:0.5s;"
+               onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';" alt="Graphic Design">
+        </div>
+        <div style="padding:26px; flex:1;">
+          <h2 style="margin-top:0; margin-bottom:8px; font-size:24px;">Graphic Design Mastery</h2>
+          <div style="color:#f59e0b; font-size:15px; margin-bottom:8px;">★★★★☆ <span style="color:#64748b;">(4.4)</span></div>
+          <p style="color:#555; margin-top:0; font-size:15px; line-height:1.6;">
+            Photoshop, Illustrator & branding basics. Create stunning graphics & visuals.
+          </p>
+          <div style="margin:12px 0; display:flex; gap:10px; flex-wrap:wrap;">
+            <span style="display:inline-block; background:#fff7ed; color:#c2410c; padding:6px 14px; border-radius:20px; font-size:13px;">⏱ 2 Months</span>
+            <span style="display:inline-block; background:#fef3c7; color:#b45309; padding:6px 14px; border-radius:20px; font-size:13px;">Intermediate</span>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-top:20px;">
+            <strong style="font-size:18px; color:#1e293b;">₹7,999</strong>
+            <button style="background:#1e40af; color:white; border:none; padding:12px 24px; border-radius:8px; cursor:pointer; box-shadow:0 5px 12px rgba(30,64,175,0.4); transition:0.3s;"
+                    onmouseover="this.style.background='#2563eb'; this.style.boxShadow='0 8px 18px rgba(37,99,235,0.5)';"
+                    onmouseout="this.style.background='#1e40af'; this.style.boxShadow='0 5px 12px rgba(30,64,175,0.4)';">Enroll Now →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Digital Marketing -->
+      <div style="display:flex; background:white; border-radius:14px; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,0.1); transition:0.3s;"
+           onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.2)';"
+           onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.1)';">
+        <div style="width:240px; overflow:hidden;">
+          <img src="./images/digital-maketing-img.png" style="width:100%; height:100%; object-fit:cover; transition:0.5s;"
+               onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';" alt="Digital Marketing">
+        </div>
+        <div style="padding:26px; flex:1;">
+          <h2 style="margin-top:0; margin-bottom:8px; font-size:24px;">Digital Marketing</h2>
+          <div style="color:#f59e0b; font-size:15px; margin-bottom:8px;">★★★★☆ <span style="color:#64748b;">(4.3)</span></div>
+          <p style="color:#555; margin-top:0; font-size:15px; line-height:1.6;">
+            SEO, Social Media & Ads strategy. Learn how to grow businesses online.
+          </p>
+          <div style="margin:12px 0; display:flex; gap:10px; flex-wrap:wrap;">
+            <span style="display:inline-block; background:#ecfdf5; color:#047857; padding:6px 14px; border-radius:20px; font-size:13px;">⏱ 1.5 Months</span>
+            <span style="display:inline-block; background:#d1fae5; color:#065f46; padding:6px 14px; border-radius:20px; font-size:13px;">Beginner</span>
+          </div>
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-top:20px;">
+            <strong style="font-size:18px; color:#1e293b;">₹5,999</strong>
+            <button style="background:#1e40af; color:white; border:none; padding:12px 24px; border-radius:8px; cursor:pointer; box-shadow:0 5px 12px rgba(30,64,175,0.4); transition:0.3s;"
+                    onmouseover="this.style.background='#2563eb'; this.style.boxShadow='0 8px 18px rgba(37,99,235,0.5)';"
+                    onmouseout="this.style.background='#1e40af'; this.style.boxShadow='0 5px 12px rgba(30,64,175,0.4)';">Enroll Now →</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
